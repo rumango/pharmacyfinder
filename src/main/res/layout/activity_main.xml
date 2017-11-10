@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elaine.locator.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <AutoCompleteTextView
+        android:layout_height="40dp"
+        android:layout_width="354dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:hint="Drug Name"
+        android:id="@+id/drugNames"
+        tools:layout_editor_absoluteY="32dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/button2"
+        android:text="FIND DRUG"
+        android:onClick="getDrug"
+        android:layout_below="@+id/drugNames"
+        android:layout_x="400dp"
+        android:layout_y="300dp"
+        android:layout_centerInParent="true"
+        android:gravity="right|center_vertical"
+        tools:layout_editor_absoluteY="260dp"
+        tools:layout_editor_absoluteX="145dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
